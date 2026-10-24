@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "berrybot",
+  "version": "${version}",
+  "name": "BerryBot",
+  "description": "Bot trade dan lang dieu khien bang menu (berry, thit chin), /sell, /order, tu an.",
+  "authors": [
+    "Me"
+  ],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.berrybot.client.BerryBotClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
